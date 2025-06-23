@@ -4,9 +4,15 @@ Get your Vim configuration up and running in under 2 minutes!
 
 ## 🚀 Super Quick Install
 
+### One-Line Installation (Fastest)
+```bash
+curl -fsSL https://raw.githubusercontent.com/rapidrabbitsoft/vimconfig/main/quick-install.sh | bash
+```
+
+### Traditional Installation
 ```bash
 # 1. Clone and install
-git clone <your-repo-url>
+git clone https://github.com/rapidrabbitsoft/vimconfig
 cd vimconfig
 ./install.sh
 

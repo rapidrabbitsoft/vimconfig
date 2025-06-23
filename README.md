@@ -16,11 +16,30 @@ A clean, modern, and minimalist Vim configuration designed for developers who wa
 
 ## 🚀 Quick Installation
 
-### Option 1: Automatic Installation (Recommended)
+### 🎯 One-Line Installation (Fastest)
+
+```bash
+# Ultra-quick install (recommended)
+curl -fsSL https://raw.githubusercontent.com/rapidrabbitsoft/vimconfig/main/quick-install.sh | bash
+```
+
+Or with wget:
+```bash
+wget -qO- https://raw.githubusercontent.com/rapidrabbitsoft/vimconfig/main/quick-install.sh | bash
+```
+
+### 🔧 Full Installation (With Cleanup)
+
+```bash
+# Full installation with cleanup options
+curl -fsSL https://raw.githubusercontent.com/rapidrabbitsoft/vimconfig/main/install-vim.sh | bash
+```
+
+### Option 1: Clone and Install (Recommended for Development)
 
 ```bash
 # Clone this repository
-git clone <your-repo-url>
+git clone https://github.com/rapidrabbitsoft/vimconfig
 cd vimconfig
 
 # Run the installer (automatically cleans old configs)
