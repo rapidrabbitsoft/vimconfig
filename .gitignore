@@ -1,0 +1,35 @@
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# Vim backup files
+*.bak
+*.backup
+
+# Vim undo files
+*.un~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files created by install script
+.vimrc.backup.* 
